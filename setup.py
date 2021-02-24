@@ -1,10 +1,9 @@
-from setuptools import setup, find_packages
-
+from distutils.core import setup
 setup(
     name='git_dependency_installer',
+    packages = ['git_dependency_installer'],
     version='1.0.0',
     license='GNU GENERAL PUBLIC LICENSE Version 3',
-    packages=find_packages(),
     description='SDK that helps to manage dependencies directly from git repositories.',
     include_package_data=True,
     install_requires=[],
