@@ -11,6 +11,7 @@ setup(
     author_email='deividas@idenfy.com',
     keywords='Git Python Dependency Manager',
     url='https://github.com/idenfy/GitDependencyInstaller.git',
+    download_url='https://github.com/idenfy/GitDependencyInstaller/archive/1.0.0.tar.gz',
     classifiers=[
         'Programming Language :: Python :: 3',
         'Programming Language :: Python :: 2',
